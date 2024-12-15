@@ -61,7 +61,7 @@ This project uses the [SMS Spam Collection Dataset](https://archive.ics.uci.edu/
 ```
 Email_spam_classifier/
 ├── app.py                   # Streamlit app for the classifier
-├── model.py                 # Script for training and saving the model
+├── sms_spam_detection.ipynb # Script for training and saving the model
 ├── preprocess.py            # Script for data preprocessing
 ├── requirements.txt         # Required Python packages
 └── README.md                # Project documentation
@@ -69,8 +69,8 @@ Email_spam_classifier/
 
 ### Description of Each File
 - **`app.py`:** Contains the Streamlit code to create an interactive web application for testing the spam classifier.
-- **`model.py`:** Includes code for training and saving the Naive Bayes Classifier.
-- **`preprocess.py`:** Handles data preprocessing tasks like text cleaning and TF-IDF vectorization.
+- **`sms_spam_detection.ipynb`:** Includes code for training and saving the Naive Bayes Classifier.
+- **`sms_spam_detection.ipynb`:** Handles data preprocessing tasks like text cleaning and TF-IDF vectorization.
 - **`requirements.txt`:** Lists all Python dependencies required to run the project.
 - **`README.md`:** Documentation for the project, including setup and usage instructions.
 
